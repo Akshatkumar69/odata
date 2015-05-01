@@ -6,6 +6,9 @@ https://gist.github.com/spheenik/3766744d47c170f25cf5.js
 Entity fields:
 http://wiki.zynox.net/Network_Information
 
+Combat log types:
+https://github.com/SteamRE/SteamKit/blob/master/Resources/Protobufs/dota/dota_gcmessages_common.proto
+
 Click target types?
 +enum DOTA_ABILITY_TARGET_TYPE {
 +	DOTA_ABILITY_TARGET_NONE = 0;
