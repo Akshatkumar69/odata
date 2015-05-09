@@ -11,6 +11,7 @@ https://github.com/SteamRE/SteamKit/blob/master/Resources/Protobufs/dota/dota_gc
 https://github.com/dotabuff/yasha/blob/master/dota/dota_gcmessages_common.proto
 
 Unit orders (part of click events?):
+```
 enum dotaunitorder_t {
 	DOTA_UNIT_ORDER_NONE = 0;
 	DOTA_UNIT_ORDER_MOVE_TO_POSITION = 1;
@@ -42,8 +43,10 @@ enum dotaunitorder_t {
 	DOTA_UNIT_ORDER_PING_ABILITY = 27;
 	DOTA_UNIT_ORDER_MOVE_TO_DIRECTION = 28;
 }
+```
 
 GameRulesState:
+```
 enum DOTA_GameState {
 	DOTA_GAMERULES_STATE_INIT = 0;
 	DOTA_GAMERULES_STATE_WAIT_FOR_PLAYERS_TO_LOAD = 1;
@@ -56,7 +59,10 @@ enum DOTA_GameState {
 	DOTA_GAMERULES_STATE_TEAM_SHOWCASE = 8;
 	DOTA_GAMERULES_STATE_LAST = 9;
 }
+```
+
 Game modes:
+```
 enum DOTA_GameMode {
 	DOTA_GAMEMODE_NONE = 0;
 	DOTA_GAMEMODE_AP = 1;
@@ -82,8 +88,10 @@ enum DOTA_GameMode {
 	DOTA_GAMEMODE_1V1MID = 21;
 	DOTA_GAMEMODE_ALL_DRAFT = 22;
 }
+```
 
 Leaver status:
+```
 enum DOTALeaverStatus_t {
 	DOTA_LEAVER_NONE = 0;
 	DOTA_LEAVER_DISCONNECTED = 1;
@@ -95,8 +103,10 @@ enum DOTALeaverStatus_t {
 	DOTA_LEAVER_FAILED_TO_READY_UP = 7;
 	DOTA_LEAVER_DECLINED = 8;
 }
+```
 
 Combat log types:
+```
 message CMsgDOTACombatLogEntry {
 	optional DOTA_COMBATLOG_TYPES type = 1 [default = DOTA_COMBATLOG_DAMAGE];
 	optional uint32 target_name = 2;
@@ -129,3 +139,4 @@ message CMsgDOTACombatLogEntry {
 	optional uint32 target_team = 29;
 	optional uint32 obs_wards_placed = 30;
 }
+```
