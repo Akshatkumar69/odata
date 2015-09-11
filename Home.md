@@ -114,7 +114,7 @@ enum DOTALeaverStatus_t {
 }
 ```
 
-Combat log types:
+Combat log fields:
 ```
 message CMsgDOTACombatLogEntry {
 	optional DOTA_COMBATLOG_TYPES type = 1 [default = DOTA_COMBATLOG_DAMAGE];
