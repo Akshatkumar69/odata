@@ -1,5 +1,11 @@
 Welcome to the yasp wiki!
 
+Ability ID mappings:
+https://github.com/dotabuff/d2vpk/blob/master/json/dota_pak01/scripts/npc/npc_abilities.json
+
+Regions:
+https://github.com/dotabuff/d2vpk/blob/master/json/dota_pak01/scripts/regions.json
+
 Code for rune spawns:
 ```
 Iterator<Entity> runes = ec.getAllByDtName("DT_DOTA_Item_Rune");
