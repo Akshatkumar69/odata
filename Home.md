@@ -22,8 +22,11 @@ seenEntities.add(handle);
 More detailed position data for entities:
 https://gist.github.com/spheenik/3766744d47c170f25cf5.js
 
-Entity fields:
+S1 Entities:
 http://wiki.zynox.net/Network_Information
+
+S2 Entities:
+https://gist.github.com/howardchung/3f6873c8a942a20b7ab1
 
 Unit orders (part of click events?):
 ```
