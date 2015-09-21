@@ -1,0 +1,1 @@
+Prerequisites: make g++ build-essential redis-server mongodb maven default-jdk nodejs-legacy npm curl git
