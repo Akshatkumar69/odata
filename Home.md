@@ -4,7 +4,7 @@ Ability ID mappings:
 https://github.com/dotabuff/d2vpk/blob/master/json/dota_pak01/scripts/npc/npc_abilities.json
 
 Regions:
-https://github.com/dotabuff/d2vpk/blob/master/json/dota_pak01/scripts/regions.json
+https://github.com/dotabuff/d2vpkr/blob/master/dota/scripts/regions.json
 
 Code for rune spawns:
 ```
