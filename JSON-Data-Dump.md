@@ -153,7 +153,7 @@ In general:
                 "134": 1
             }
         },
-        "actions": { // See
+        "actions": { // See https://github.com/yasp-dota/yasp/blob/master/json/order_types.json
             "1": 2588,
             "2": 140,
             "4": 247,
@@ -169,7 +169,7 @@ In general:
             "25": 4
         },
         "pings": {
-            "0": 37
+            "0": 37 // Total number of pings
         },
         "purchase": {
             "courier": 1,
@@ -185,13 +185,13 @@ In general:
             "magic_stick": 1,
             "magic_wand": 1
         },
-        "gold_reasons": {
+        "gold_reasons": { // See https://github.com/yasp-dota/yasp/blob/master/json/gold_reasons.json
             "0": 715,
             "1": -565,
             "6": 25,
             "13": 94
         },
-        "xp_reasons": {
+        "xp_reasons": { // See https://github.com/yasp-dota/yasp/blob/master/json/xp_reasons.json
             "0": 1,
             "2": 2045
         },
@@ -246,7 +246,7 @@ In general:
             "modifier_lion_voodoo": 7,
             "modifier_lion_impale": 20
         },
-        "kill_streaks": {
+        "kill_streaks": { // See https://github.com/yasp-dota/yasp/blob/master/json/kill_streaks.json
             "3": 1,
             "4": 1,
             "5": 1,
