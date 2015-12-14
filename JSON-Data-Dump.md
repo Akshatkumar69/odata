@@ -9,7 +9,7 @@ In general:
 }
 ```
 ```JS
-[{
+[{ // Data dumps are arrays of match objects
     "match_id": 2000594819,
     "match_seq_num": 1764515493,
     "radiant_win": false,
