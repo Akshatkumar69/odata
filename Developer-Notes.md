@@ -1,7 +1,9 @@
 Map:
 https://github.com/kronusme/dota2-api/tree/master/images/map
+
 Ability ID:
 https://github.com/dotabuff/d2vpkr/blob/master/dota/scripts/npc/npc_abilities.json
+
 Regions:
 https://github.com/dotabuff/d2vpkr/blob/master/dota/scripts/regions.json
 
