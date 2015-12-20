@@ -1,3 +1,6 @@
+YASP's data dumps are located on [Academic Torrents]().
+
+We suggest streaming the file, decompressing and parsing the JSON as you go. For an example on how to do this (in Node.js of course), see [here](https://github.com/yasp-dota/yasp/blob/master/dev/export-example.js).
 In general:
 * Times are in seconds
 * Positions are notated as:
