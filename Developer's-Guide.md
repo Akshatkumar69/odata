@@ -26,7 +26,7 @@
             * It also creates Redis keys for parsers/retrievers by reading config. Could be extended later to query from a service discovery server.
         * `getMmStats`.  Gets matchmaking queue stats from a retriever
         * `cleanup`.  Cleans up old jobs from the queue and old telemetry data.
-    * `profiler`.  Selects a randon block of 100 players from the database and requests new Steam player profile data for each.
+    * `profiler`.  Selects a random block of 100 players from the database and requests new Steam player profile data for each.
     * `scanner`: Reads the Steam sequential API to find the latest matches to add/parse.
         * Runs `buildSets` prior to start to ensure we have the latest trackedPlayers so we don't leak matches.
         * If a match is found passing the criteria for parse (`leagueid>0` or contains player in `trackedPlayers` set), `insertMatch` is called.
