@@ -43,6 +43,7 @@
         * Sends a request to the retriever asking for the player's MMR
     * `fullhistory`: Processes full history requests.
         * By querying for a player's most recent 500 matches (API limit) with each hero, get most/all of a player's matches.
+    * `cacher`: Updates player caches when new matches are inserted.
 * Player/match caching: 
     * We cache matches (JSON blobs) in Redis in order to reduce DB lookups on repeated loads.
     * We also cache player profiles.  The current caching model saves a JSON blob of the aggregated data.  This means:
