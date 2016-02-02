@@ -1,4 +1,4 @@
-* The project uses a microservice architecture, in order to promote modularity and allow different pieces to scale on different machines.
+* The project uses a microservice architecture, in order to promote modularity and allow services to scale individually and be deployed on a cluster of nodes.
 * Build step.  `npm run build` executes the following.
     * `npm install` Downloads and installs the Node dependencies from npm.
     * `npm run maven` Uses Maven to build the Java parser.
@@ -44,12 +44,11 @@
     * `fullhistory`: Processes full history requests.
         * By querying for a player's most recent 500 matches (API limit) with each hero, get most/all of a player's matches.
     * `cacher`: Updates player caches when new matches are inserted.
-* Player/match caching: 
+* Player/match caching for performance:
     * We cache matches (JSON blobs) in Redis in order to reduce DB lookups on repeated loads.
     * We also cache player profiles.  The current caching model saves a JSON blob of the aggregated data.  This means:
         * The cache is invalid if there is a filter on the request.
         * Adding a match requires checking the cache for all the players within and updating them accordingly.
-        * Currently the caches are stored as compressed JSON blobs, and updating requires a full rewrite of the blob.  This is quite CPU-intensive.
+        * Currently the caches are stored as compressed JSON blobs, and updating requires a read followed by a full rewrite of the blob.  This is quite CPU-intensive.
 * `npm run watch`: If you want to make changes to client side JS, you will want to run the watch script in order to automatically rebuild after making changes.
 * `npm test` to run the full test suite.  Use `mocha` for more fine-grained control.
-* Brief snippets and useful links are included in the [wiki](https://github.com/yasp-dota/yasp/wiki)
