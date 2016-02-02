@@ -1,4 +1,4 @@
-YASP's data dumps are located on [Academic Torrents](http://academictorrents.com/mycollections.php).
+YASP's data dumps are located on [Academic Torrents](http://academictorrents.com/collection/yasp-data-dumps).
 
 We suggest streaming the file, decompressing and parsing the JSON as you go. For an example on how to do this (in Node.js of course), see [here](https://github.com/yasp-dota/yasp/blob/master/dev/export-example.js). This script dumps all the match_ids contained in the data file.
 
