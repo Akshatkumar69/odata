@@ -2,7 +2,7 @@
 ## Prerequisites
 According to init.sh: make g++ build-essential redis-server mongodb maven default-jdk nodejs-legacy npm curl git. Xcode command line tools should be installed. Ensure that postgresql and redis servers are running.
 `brew install mvn` 
-`npm install webpack instanbul -g`
+`npm install webpack istanbul -g`
 (Running `npm run build` will execute "build", in package.json "scripts".)
 
 # Fedora
