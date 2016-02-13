@@ -50,5 +50,3 @@
         * The cache is invalid if there is a filter on the request.
         * Adding a match requires checking the cache for all the players within and updating them accordingly.
         * Currently the caches are stored as compressed JSON blobs, and updating requires a read followed by a full rewrite of the blob.  This is quite CPU-intensive.
-* `npm run watch`: If you want to make changes to client side JS, you will want to run the watch script in order to automatically rebuild after making changes.
-* `npm test` to run the full test suite.  Use `mocha` for more fine-grained control.
