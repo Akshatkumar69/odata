@@ -1,3 +1,6 @@
+Steam WebAPI documentation:
+https://lab.xpaw.me/steam_api_documentation.html
+
 Map:
 https://github.com/kronusme/dota2-api/tree/master/images/map
 
