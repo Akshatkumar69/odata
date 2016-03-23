@@ -75,6 +75,7 @@ In general:
         }, ... ]
     }, ... ],
     "version": 15, // Parse version, used internally for YASP
+    "skill": 1, // Newer data dumps have this, the skill level (Normal, High, Very High)
     "players": [{ // Array of players
         "account_id": 223332951, // Standard WebAPI stuff
         "player_slot": 0,
