@@ -2,7 +2,7 @@ Braces: own line
 ```
 if (true)
 {
-  return;
+    return;
 }
 ```
 Semicolons: yes
@@ -20,7 +20,7 @@ If braces: always
 ```
 if (true)
 {
-  console.log('one line block, but has braces');
+    console.log('one line block, but has braces');
 }
 ```
 Variable declaration: One per line
@@ -32,7 +32,7 @@ Trailing commas in object literals: yes
 ```
 var obj = 
 {
-  first: 1,
-  last: 2,
+    first: 1,
+    last: 2,
 }
 ```
