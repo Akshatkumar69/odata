@@ -9,11 +9,11 @@ Semicolons: yes
 ```
 console.log("look at this line");
 ```
-Indentation: 2 spaces
+Indentation: 4 spaces
 ```
 if (true)
 {
-  console.log("indented line");
+    console.log("indented line");
 }
 ```
 If braces: always
