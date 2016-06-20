@@ -39,7 +39,7 @@
   * Trends
   * Comparison against other users
   * Word Clouds (text said and read in all chat)
-* Rating Tracker: Keep track of MMR by adding a Steam account as a friend
+* Rating Tracker: Keep track of MMR by publicly sharing your MMR on your profile
 * Pro Games: Optionally parses professional matches: `leagueid>0`
 * Modular: Microservice architecture, with pieces that can be used independently
 * Scalable: Designed to scale to thousands of users.
