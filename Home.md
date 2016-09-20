@@ -1,1 +1,1 @@
-Welcome to the YASP wiki!
+Welcome to the wiki!
