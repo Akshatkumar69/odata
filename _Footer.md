@@ -1,1 +1,0 @@
-YASP is awesome!
